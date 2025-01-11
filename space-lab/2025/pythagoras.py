@@ -3,7 +3,7 @@ import math
 from datetime import datetime as dt
 import matplotlib.pyplot as plt
 
-data_path = "space-lab\\2025\\iss-data.csv"
+data_path = "iss-data.csv"
 data_set = pd.read_csv(data_path)
 print(f"Row Count = {len(data_set):5d}")
 #print("Row Count = {:5d}".format(len(data_set)))
