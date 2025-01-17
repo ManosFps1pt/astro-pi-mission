@@ -9,6 +9,7 @@ data_set = pd.read_csv(data_path)
 print(f"Row Count = {len(data_set):5d}")
 #print("Row Count = {:5d}".format(len(data_set)))
 earth_rad = 3440.1 # nautical miles
+
 haversine_velocity_list = []
 pythagorean_velocity_list = []
 latitude_list = []
