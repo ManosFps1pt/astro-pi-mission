@@ -43,12 +43,12 @@ def haversine_formula(long1: float, lat1: float, long2: float, lat2: float) -> f
     )
 
 def hf(radLongA, radLatA, radLongB, radLatB):
-    distance = earth_rad * math.acos((math.sin(radLatA) * math.sin(radLatB)) +
+    distance = (earth_rad + 260) * math.acos((math.sin(radLatA) * math.sin(radLatB)) +
                                      math.cos(radLatA) * math.cos(radLatB) * math.cos(radLongA - radLongB))
     return distance
 
 
-while i < len(data_set) - 1: 
+while i < len(data_set) - 10000: 
     print(f"----- ITERATION {i} -----")
     latA = data_set.iloc[i,1]
     longA = data_set.iloc[i,2]
