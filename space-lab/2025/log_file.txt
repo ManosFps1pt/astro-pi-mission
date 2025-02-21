@@ -1,0 +1,11 @@
+================================================================================
+Iteration = 1
+LongitudeA degrees = 19.989016924169658
+LatitudeA degrees = 45.659992734864964
+LongitudeB degress = 20.3772315027017
+LatitudeB degrees = 45.50821817530714
+Altitude = 422.58 km
+distance =  39.31 km, velocity =  7.86264 km/sec latB - latA = -0.00265
+photo: image1.jpg
+================================================================================
+execution time 0:00:18.096770
