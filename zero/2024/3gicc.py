@@ -7,14 +7,14 @@ sleeping_time = 0.5
 sense = SenseHat()
 sense.set_rotation(270, False)
 
-# Set up the colour sensor
+# Set up the colour sensorp
 sense.color.gain = 60 # Set the sensitivity of the sensor
 sense.color.integration_cycles = 64 # The interval at which the reading will be taken
 
 # Add colour variables and image
 def hex(string):
     if string[0] == "#":
-        return (int(string[1:3], base = 16), int(string[3:5], base = 16), int(string[5:], base = 16))
+        return int(string[1:3], base = 16), int(string[3:5], base = 16), int(string[5:], base = 16)
         
 gray = hex("#333333")
 bg = hex("#87ceeb")

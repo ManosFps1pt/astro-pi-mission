@@ -104,7 +104,7 @@ data_file = base_folder/"data.csv"
 create_csv_file(data_file)
 
 idx = 1
-while (now_time < start_time + timedelta(minutes = running_time - 0.35)):
+while now_time < start_time + timedelta(minutes =running_time - 0.35):
     try: 
         loop_start_time = dt.now()
         out_file.write(f"Iterarion = {idx}\n")
